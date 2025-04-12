@@ -1,10 +1,9 @@
 <!doctype html>
-<html class="no-js" lang="">
-
+<html lang="es">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
+  <title>Aprendiendo Git y GitHub</title>
   <link rel="stylesheet" href="css/style.css">
   <meta name="description" content="">
 
@@ -23,10 +22,167 @@
 </head>
 
 <body>
+<header>
+  <div class="header-bg"></div>
+  <div class="header-content">
+    <h1>Aprendiendo Git y GitHub</h1>
+    <p>Control de versiones para proyectos de desarrollo de software</p>
+  </div>
+</header>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/app.js"></script>
+<div class="container">
+  <div class="card">
+    <h2>Diferencias entre Versionamiento Local y Remoto</h2>
+
+    <div class="highlight">
+      <p>El control de versiones es esencial para el desarrollo de software moderno, permitiendo colaboración eficiente y manteniendo un historial completo de cambios en el código.</p>
+    </div>
+
+    <h3>Versionamiento Local</h3>
+    <p>Los sistemas de control de versiones locales almacenan las diferentes versiones de archivos en el disco duro local del desarrollador.</p>
+    <ul>
+      <li><strong>Ventajas:</strong> Simplicidad, no requiere conexión a internet, fácil de configurar.</li>
+      <li><strong>Desventajas:</strong> Dificulta la colaboración, riesgo de pérdida de datos si hay fallas en el dispositivo local.</li>
+      <li><strong>Ejemplos:</strong> RCS (Revision Control System), Copias manuales en diferentes carpetas.</li>
+    </ul>
+
+    <h3>Versionamiento Remoto</h3>
+    <p>Los sistemas de control de versiones remotos almacenan el repositorio en un servidor externo, permitiendo que múltiples desarrolladores trabajen en el mismo proyecto.</p>
+    <ul>
+      <li><strong>Ventajas:</strong> Facilita la colaboración, proporciona copias de seguridad, permite desarrollo distribuido.</li>
+      <li><strong>Desventajas:</strong> Requiere conexión a internet para sincronizar cambios, puede tener mayor complejidad.</li>
+      <li><strong>Ejemplos:</strong> GitHub, GitLab, Bitbucket (todos basados en Git).</li>
+    </ul>
+
+    <table class="comparison-table">
+      <thead>
+      <tr>
+        <th>Característica</th>
+        <th>Versionamiento Local</th>
+        <th>Versionamiento Remoto</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>Ubicación del repositorio</td>
+        <td>Máquina local del desarrollador</td>
+        <td>Servidor remoto (en la nube)</td>
+      </tr>
+      <tr>
+        <td>Colaboración</td>
+        <td>Limitada o inexistente</td>
+        <td>Efectiva con múltiples desarrolladores</td>
+      </tr>
+      <tr>
+        <td>Respaldo</td>
+        <td>Solo en el dispositivo local</td>
+        <td>Distribuido en múltiples ubicaciones</td>
+      </tr>
+      <tr>
+        <td>Conexión requerida</td>
+        <td>No necesita internet</td>
+        <td>Necesita internet para sincronizar</td>
+      </tr>
+      <tr>
+        <td>Flujo de trabajo</td>
+        <td>Simple, lineal</td>
+        <td>Complejo, con ramificaciones (branches)</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>Herramientas de Desarrollo para Codificación de Software</h2>
+
+    <div class="grid">
+      <div class="tool-card">
+        <h3>Visual Studio Code</h3>
+        <p>Editor de código ligero pero potente con soporte integrado para Git y extensiones para casi cualquier lenguaje de programación.</p>
+        <p><strong>Características principales:</strong> Intellisense, depuración integrada, terminal integrado, integración con Git.</p>
+      </div>
+
+      <div class="tool-card">
+        <h3>IntelliJ IDEA</h3>
+        <p>IDE completo para Java y otros lenguajes con poderosas herramientas de refactorización y análisis de código.</p>
+        <p><strong>Características principales:</strong> Refactorización avanzada, análisis de código inteligente, integración con herramientas de build.</p>
+      </div>
+
+      <div class="tool-card">
+        <h3>Sublime Text</h3>
+        <p>Editor de texto rápido y con múltiples funciones para escribir código con una interfaz minimalista.</p>
+        <p><strong>Características principales:</strong> Velocidad, personalización, múltiples cursores, paleta de comandos.</p>
+      </div>
+
+      <div class="tool-card">
+        <h3>WebStorm</h3>
+        <p>IDE especializado para desarrollo web (JavaScript, HTML, CSS) con potentes características de depuración y análisis.</p>
+        <p><strong>Características principales:</strong> Soporte para frameworks modernos, depuración avanzada, análisis de código inteligente.</p>
+      </div>
+    </div>
+
+    <h3>Criterios de selección de herramientas</h3>
+    <ol>
+      <li><strong>Tipo de proyecto:</strong> Asegúrate de que la herramienta sea adecuada para los lenguajes y frameworks que utilizarás.</li>
+      <li><strong>Integración con Git:</strong> Las mejores herramientas ofrecen integración nativa con sistemas de control de versiones.</li>
+      <li><strong>Facilidad de uso:</strong> Una interfaz intuitiva acelera el desarrollo y reduce errores.</li>
+      <li><strong>Extensibilidad:</strong> Busca herramientas que permitan instalar plugins para añadir funcionalidades.</li>
+      <li><strong>Rendimiento:</strong> Especialmente importante para proyectos grandes o equipos con recursos limitados.</li>
+    </ol>
+  </div>
+
+  <div class="card">
+    <h2>Herramientas de Versionamiento</h2>
+
+    <div class="grid">
+      <div class="tool-card">
+        <h3>Git</h3>
+        <p>Sistema de control de versiones distribuido diseñado para manejar proyectos pequeños o muy grandes con velocidad y eficiencia.</p>
+        <p><strong>Características:</strong> Ramas ligeras, área de preparación (staging area), operaciones locales rápidas.</p>
+      </div>
+
+      <div class="tool-card">
+        <h3>GitHub</h3>
+        <p>Plataforma basada en Git que proporciona alojamiento para repositorios de software y herramientas de colaboración.</p>
+        <p><strong>Características:</strong> Pull requests, issues, acciones (GitHub Actions), páginas (GitHub Pages).</p>
+      </div>
+
+      <div class="tool-card">
+        <h3>GitLab</h3>
+        <p>Plataforma completa de DevOps que incluye repositorio Git, CI/CD, monitoreo y más.</p>
+        <p><strong>Características:</strong> CI/CD integrado, registros de contenedores, gestión de proyectos.</p>
+      </div>
+
+      <div class="tool-card">
+        <h3>Bitbucket</h3>
+        <p>Servicio de alojamiento Git que se integra perfectamente con otros productos de Atlassian como Jira y Trello.</p>
+        <p><strong>Características:</strong> Integración con Jira, pipelines CI/CD, revisiones de código.</p>
+      </div>
+    </div>
+
+    <h3>Flujo de trabajo básico con Git y GitHub</h3>
+    <ol>
+      <li><strong>Clonar:</strong> <code>git clone [url-del-repositorio]</code> - Descarga una copia del repositorio a tu máquina local.</li>
+      <li><strong>Crear rama:</strong> <code>git branch [nombre-rama]</code> y <code>git checkout [nombre-rama]</code> - Crea y cambia a una nueva rama de características.</li>
+      <li><strong>Realizar cambios:</strong> Modifica los archivos en tu editor de código.</li>
+      <li><strong>Añadir cambios:</strong> <code>git add [archivos]</code> - Prepara los cambios para el commit.</li>
+      <li><strong>Confirmar cambios:</strong> <code>git commit -m "mensaje descriptivo"</code> - Guarda los cambios en el historial local.</li>
+      <li><strong>Subir cambios:</strong> <code>git push origin [nombre-rama]</code> - Envía los cambios al repositorio remoto.</li>
+      <li><strong>Pull Request:</strong> En GitHub, crea un Pull Request para revisar y fusionar los cambios.</li>
+    </ol>
+
+    <div class="highlight">
+      <p>Git es el estándar de la industria para el control de versiones. Dominar Git y plataformas como GitHub te dará ventajas significativas como desarrollador de software.</p>
+    </div>
+  </div>
+
+  <a href="#" class="btn">Descargar proyecto completo</a>
+</div>
+
+<footer>
+  <p>&copy; 2025 Proyecto de Aprendizaje Git. Todos los derechos reservados.</p>
+</footer>
+</body>
 
 </body>
 

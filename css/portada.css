@@ -3,7 +3,7 @@
   --primary-dark: #1d4ed8;
   --primary-light: #60a5fa;
   --secondary-color: #10b981;
-  --dark-color: #0c0c0c;
+  --dark-color: #070707;
   --light-color: #f8fafc;
   --gray-color: #94a3b8;
   --accent-color: #7c3aed;
@@ -530,7 +530,7 @@ textarea.form-control {
 footer {
   background-color: var(--dark-color);
   color: white;
-  padding: 3rem 0;
+  padding: 1rem 0;
 }
 
 .footer-container {
@@ -649,13 +649,6 @@ footer {
   }
 
   .contact-form {
-    padding: 2rem;
-  }
-  footer {
-    background-color: var(--dark-color);
-    color: #bab7b7;
-    text-align: center;
-    padding: 2rem 0;
-    margin-top: 2rem;
+    padding: 1rem;
   }
 }

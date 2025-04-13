@@ -14,6 +14,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -50,12 +52,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.Portada.html.executor": "Run",
     "JavaScript Debug.index.html.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "disable.download.node.interpreter.editor.notification": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/ASUS/AppData/Roaming/JetBrains/IntelliJIdea2024.2/node/versions/22.14",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -102,7 +106,9 @@
       <workItem from="1744425672643" duration="282000" />
       <workItem from="1744426119270" duration="39000" />
       <workItem from="1744428482392" duration="20000" />
-      <workItem from="1744428554258" duration="5307000" />
+      <workItem from="1744428554258" duration="16557000" />
+      <workItem from="1744519458665" duration="748000" />
+      <workItem from="1744562821810" duration="7573000" />
     </task>
     <task id="LOCAL-00001" summary="codigo HTML, y style">
       <option name="closed" value="true" />
@@ -112,7 +118,23 @@
       <option name="project" value="LOCAL" />
       <updated>1744425847041</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ajustes de estilos CSS.">
+      <option name="closed" value="true" />
+      <created>1744507818227</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744507818227</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Interfaz: Portafolio de presentación, aprendiz SENA linqueado y respectiva imagen.">
+      <option name="closed" value="true" />
+      <created>1744563332798</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1744563332798</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +153,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="codigo HTML, y style" />
-    <option name="LAST_COMMIT_MESSAGE" value="codigo HTML, y style" />
+    <MESSAGE value="Ajustes de estilos CSS." />
+    <MESSAGE value="Interfaz: Portafolio de presentación, aprendiz SENA linqueado y respectiva imagen." />
+    <option name="LAST_COMMIT_MESSAGE" value="Interfaz: Portafolio de presentación, aprendiz SENA linqueado y respectiva imagen." />
   </component>
 </project>

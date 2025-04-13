@@ -1,10 +1,10 @@
 /* CSS for the website */
 :root {
-  --primary-color: #2b3137;
-  --secondary-color: #6e5494;
-  --accent-color: #f3663f;
-  --light-color: #f6f8fa;
-  --dark-color: #24292e;
+  --primary-color: #000000;
+  --secondary-color: #8b6db6;
+  --accent-color: #fb9671;
+  --light-color: #e7f4fb;
+  --dark-color: #070707;
 }
 
 * {
@@ -23,7 +23,7 @@ body {
 header {
   background-color: var(--primary-color);
   color: white;
-  padding: 2rem 0;
+  padding: 0.5rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -106,7 +106,7 @@ header h1 {
 }
 
 .highlight {
-  background-color: #fffde7;
+  background-color: #caf8f1;
   padding: 1rem;
   border-radius: 4px;
   border-left: 4px solid var(--accent-color);
@@ -125,7 +125,7 @@ header h1 {
 }
 
 .btn:hover {
-  background-color: #e05a38;
+  background-color: #2f513e;
 }
 
 footer {
